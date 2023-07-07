@@ -1,0 +1,39 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+HORIZON_URL="https://horizon.stellar.org"
+
+ACCOUNTS=[
+"GBJGR7HDC4QPCZ6SA5VBH73V7L5SSZ5GAS6US23PFSGV4SQXJLYGERYX",
+"GBLR4DA5XASK5FQZ2ENSU6LMMO5PGERDEH64Q2R2PQQUTJPQW4VF2ZFS",
+"GCACG76X3OSCSHE6ZFRIWRXX3UNJ6ITIA7KCFZH3WAA5CRH4ZOWKUQBH"
+]
+
+
+
+[[CURRENCIES]]
+code="RUV"
+issuer="GBJGR7HDC4QPCZ6SA5VBH73V7L5SSZ5GAS6US23PFSGV4SQXJLYGERYX"
+status="live"
+display_decimals=7
+name="RuvChain"
+fixed_number=500000000
+desc="RuvChain is a digital token to the Stellar Blockchain. RuvChain is an open source blockchain platform, RUV is proof that, blockchain technology is not only about simple transfer of value but also has the potential to revolutionize many aspects of our lives with the various decentralized applications that can be built with it."
+conditions="There will only ever be 500 000 000 RUV tokens in existence."
+image="https://ruvcha.in/images/logo.png"
+
+
+[DOCUMENTATION]
+ORG_NAME="RuvChain"
+ORG_URL="https://ruvcha.in"
+ORG_LOGO="https://ruvcha.in/images/logo.png"
+ORG_DESCRIPTION="RuvChain is a digital token to the Stellar Blockchain. RuvChain is an open source blockchain platform, RUV is proof that, blockchain technology is not only about simple transfer of value but also has the potential to revolutionize many aspects of our lives with the various decentralized applications that can be built with it."
+ORG_OFFICIAL_EMAIL="admin@ruvcha.in"
+ORG_TWITTER="ruvchain"
+ORG_GITHUB="ruvchain"
+ORG_KEYBASE="ruvcoindev"
+
+
+[[PRINCIPALS]]
+name="Admin"
+email="admin@ruvcha.in"
+keybase="ruvcoindev"
+
